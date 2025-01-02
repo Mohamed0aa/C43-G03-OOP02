@@ -21,6 +21,19 @@
             //    Console.WriteLine($"{persons[i]}");
             //}
             #endregion
+
+            #region q2 :
+            //Point p1 = new Point();
+            //p1.x=int.Parse(Console.ReadLine());
+            //p1.y = int.Parse(Console.ReadLine());
+            //Point p2 = new Point();
+            //p2.x = int.Parse(Console.ReadLine());
+            //p2.y = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine(Math.Sqrt((Math.Pow(p2.x - p1.x, 2)+ Math.Pow(p2.y - p1.y, 2))));
+
+
+            #endregion
         }
     }
 }
