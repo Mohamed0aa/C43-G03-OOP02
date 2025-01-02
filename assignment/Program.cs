@@ -56,14 +56,19 @@
             #endregion
 
             #region q4 : Design and implement a Class for the employees in a company:
-             employee em1= new employee();
-            em1.ID = 1;
-            em1.salary = 5000;
-            em1.gender = 't';//=> [f]
-            em1.security_level = 0;
-            em1.Name="Test";
-            em1.Hire_date = "18/11/2003";
-            Console.WriteLine(em1);
+            // employee em1= new employee();
+            //em1.ID = 1;
+            //em1.salary = 5000;
+            //em1.gender = 't';//=> [f]
+            //em1.security_level = 0;
+            //em1.Name="Test";
+            //em1.Hire_date = "18/11/2003";
+            //Console.WriteLine(em1);
+            #endregion
+
+            #region q5: Develop a Class to represent the Hiring Date Data:
+            //Date date = new Date(2003,11,1);
+            //Console.WriteLine(date);
             #endregion
 
         }
