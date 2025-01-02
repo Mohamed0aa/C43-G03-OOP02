@@ -22,7 +22,7 @@
             //}
             #endregion
 
-            #region q2 :
+            #region q2 : Create a struct called "Point" to represent a 2D point with properties "X" and "Y". Write a C# program that takes two points as input from the user and calculates the distance between them.
             //Point p1 = new Point();
             //p1.x=int.Parse(Console.ReadLine());
             //p1.y = int.Parse(Console.ReadLine());
@@ -33,6 +33,26 @@
             //Console.WriteLine(Math.Sqrt((Math.Pow(p2.x - p1.x, 2)+ Math.Pow(p2.y - p1.y, 2))));
 
 
+            #endregion
+
+            #region q3 :Create a struct called "Person" with properties "Name" and "Age". Write a C# program that takes details of 3 persons as input from the user and displays the name and age of the oldest person.
+            //Person[] persons = new Person[3];
+            
+            //for(int i=0;i<persons.Length;i++)
+            //{
+            //    persons[i].name = Console.ReadLine();
+            //    persons[i].age=int.Parse(Console.ReadLine());
+            //}
+            //int mx = 0,mxIn=0;
+            //for (int i = 0; i < persons.Length; i++)
+            //{
+            //    if (persons[i].age>=mx)
+            //    {
+            //        mx = persons[i].age;
+            //        mxIn = i;
+            //    }
+            //}
+            //Console.WriteLine($"OLDEST_PERSON IS {persons[mxIn].name}");
             #endregion
         }
     }
