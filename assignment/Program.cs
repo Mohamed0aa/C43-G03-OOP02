@@ -59,7 +59,7 @@
             // employee em1= new employee();
             //em1.ID = 1;
             //em1.salary = 5000;
-            //em1.gender = 't';//=> [f]
+            //em1.gender = 't';//=> [R]
             //em1.security_level = 0;
             //em1.Name="Test";
             //em1.Hire_date = "18/11/2003";
@@ -69,6 +69,20 @@
             #region q5: Develop a Class to represent the Hiring Date Data:
             //Date date = new Date(2003,11,1);
             //Console.WriteLine(date);
+            #endregion
+
+            #region q6 : Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
+            //employee[] Emp = new employee[3];
+
+            //// Creating instances of Employee with different security levels
+            //Emp[0] = new employee(1, "DBA Employee", Security_level.DBA, 100000, "18/11/2003", 'M');
+            //Emp[1] = new employee(1, "DBA Employee", Security_level.guest, 100000, "18/11/2003", 'M');
+            //Emp[2] = new employee(1, "DBA Employee", Security_level.secretary, 100000, "18/11/2003", 'M');
+
+            //for (int i = 0; i < Emp.Length; i++)
+            //{
+            //    Console.WriteLine(Emp[i]);
+            //}
             #endregion
 
         }

@@ -24,6 +24,17 @@ namespace assignment
         public string Hire_date { get; set; }
         public char gender { get; set; }
 
+        public employee(int id, string Name, Security_level security_level, decimal salary, string Hire_date, char gender)
+        {
+            this.ID = id;
+            this.Name = Name;
+            this.gender = gender;
+            this.salary = salary;
+            this.Hire_date = Hire_date;
+            this.security_level = security_level;
+
+        }
+
         public char Gender
         {
             get {return gender;}
@@ -31,7 +42,7 @@ namespace assignment
             {
                 if(value !='M' &&  value !='F')
                 {
-                    gender= 'F';
+                    gender= 'R';
                 }
                 else
                 {
