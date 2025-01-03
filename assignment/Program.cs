@@ -56,13 +56,13 @@
             #endregion
 
             #region q4 : Design and implement a Class for the employees in a company:
-            // employee em1= new employee();
+            //employee em1 = new employee();
             //em1.ID = 1;
             //em1.salary = 5000;
             //em1.gender = 't';//=> [R]
             //em1.security_level = 0;
-            //em1.Name="Test";
-            //em1.Hire_date = "18/11/2003";
+            //em1.Name = "Test";
+            //em1.Hire_date =DateTime.Now;
             //Console.WriteLine(em1);
             #endregion
 
@@ -73,11 +73,9 @@
 
             #region q6 : Create an array of Employees with size three a DBA, Guest and the third one is security officer who have full permissions. (Employee [] EmpArr;)
             //employee[] Emp = new employee[3];
-
-            //// Creating instances of Employee with different security levels
-            //Emp[0] = new employee(1, "DBA Employee", Security_level.DBA, 100000, "18/11/2003", 'M');
-            //Emp[1] = new employee(1, "DBA Employee", Security_level.guest, 100000, "18/11/2003", 'M');
-            //Emp[2] = new employee(1, "DBA Employee", Security_level.secretary, 100000, "18/11/2003", 'M');
+            //Emp[0] = new employee(1, "DBA Employee", Security_level.DBA, 100000, DateTime.Now, 'M');
+            //Emp[1] = new employee(1, "DBA Employee", Security_level.guest, 100000, DateTime.Now, 'M');
+            //Emp[2] = new employee(1, "DBA Employee", Security_level.secretary, 100000, DateTime.Now, 'M');
 
             //for (int i = 0; i < Emp.Length; i++)
             //{
@@ -85,6 +83,32 @@
             //}
             #endregion
 
+            #region q7 :  
+            //employee[] Emp = new employee[3];
+            //Emp[0] = new employee(1, "DBA Employee", Security_level.DBA, 100000, new DateTime(2003, 11, 11), 'M');
+            //Emp[1] = new employee(1, "DBA Employee", Security_level.guest, 100000, new DateTime(2003, 11, 2), 'M');
+            //Emp[2] = new employee(1, "DBA Employee", Security_level.secretary, 100000, new DateTime(2003, 1, 3), 'M');
+
+            //for (int i = 0; i < Emp.Length - 1; i++)
+            //{
+            //    for (int j = 0; j < Emp.Length - i - 1; j++)
+            //    {
+            //        if (Emp[j].Hire_date > Emp[j + 1].Hire_date)
+            //        {
+            //            employee temp = Emp[j];
+            //            Emp[j] = Emp[j + 1];
+            //            Emp[j + 1] = temp;
+            //        }
+
+            //    }
+            //}
+
+            //for (int i = 0; i < Emp.Length; i++)
+            //{
+            //    Console.WriteLine(Emp[i]);
+            //}
+            //0 boxing  0 unboxing 
+            #endregion
         }
     }
 }

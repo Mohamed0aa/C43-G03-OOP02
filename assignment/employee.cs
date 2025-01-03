@@ -21,10 +21,10 @@ namespace assignment
 
         public Security_level  security_level { get; set; }
         public decimal salary { get; set; }
-        public string Hire_date { get; set; }
+        public DateTime Hire_date { get; set; }
         public char gender { get; set; }
 
-        public employee(int id, string Name, Security_level security_level, decimal salary, string Hire_date, char gender)
+        public employee(int id, string Name, Security_level security_level, decimal salary, DateTime Hire_date, char gender)
         {
             this.ID = id;
             this.Name = Name;
@@ -32,6 +32,10 @@ namespace assignment
             this.salary = salary;
             this.Hire_date = Hire_date;
             this.security_level = security_level;
+
+        }
+        public employee()
+        {
 
         }
 
